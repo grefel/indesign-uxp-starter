@@ -1,0 +1,5 @@
+let dok = app.documents.add();
+let page = dok.pagxes.item(0);
+let textFrame = page.textFrames.add();
+textFrame.geometricBounds = [15, 15, 100, 100];
+textFrame.contents = "Hello, World!";
